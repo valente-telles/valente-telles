@@ -12,121 +12,161 @@ I am a Senior / Lead Engineer with strong experience designing and leading **end
 My work focuses on **applied Generative AI in real business and regulated environments**, combining LLMs, Retrieval-Augmented Generation (RAG), intelligent agents and modern data platforms with an emphasis on explainability, governance and long-term maintainability.
 
 ---
+# 🎓 Curso: IA Generativa em Produção
 
-## 🧠 Technical Leadership & Scope
+## Arquitetura, Governança e Sistemas Reais com LLMs
 
-- Architecture and technical decision-making for data and AI systems  
-- Design and implementation of RAG pipelines and agent-based architectures  
-- Ownership of backend services, data pipelines and AI inference layers  
-- Hands-on contribution across the stack when required to deliver complete products  
-- Focus on production readiness, observability, risk and governance  
+Curso técnico e prático focado na construção de **sistemas de IA Generativa em produção**, tratando LLMs como **software crítico**, e não como experimentos isolados.
 
----
-
-## 🚀 Areas of Expertise
-
-- Generative AI and Intelligent Agents  
-- Retrieval-Augmented Generation (RAG) architectures  
-- Data Engineering and Lakehouse platforms  
-- Backend and API development  
-- Full-product delivery (backend-first, UI when needed)  
-- MLOps, evaluation and AI governance  
+Este curso aborda decisões reais de **arquitetura, governança, segurança, custo e operação**, aplicadas a cenários corporativos.
 
 ---
 
-## 📌 Selected Work
+## 📌 Visão Geral
 
-### 🔹 Neobank Assistant — Generative AI Reference Architecture
-End-to-end Generative AI assistant architecture for financial use cases, designed with a focus on:
-- Document ingestion and semantic indexing  
-- Retrieval-Augmented Generation (RAG)  
-- Backend orchestration with FastAPI  
-- Explainability, data control and governance  
+A popularização de LLMs trouxe inúmeras demos e tutoriais rápidos, mas poucos conteúdos ensinam **como projetar, manter e escalar sistemas de IA Generativa em ambientes reais**.
 
-👉 https://github.com/alevtelles/neobank-assistant
+Este curso foi criado para preencher essa lacuna.
 
----
+Aqui, você aprenderá a:
+- Projetar arquiteturas sólidas de IA Generativa
+- Construir pipelines com RAG e agentes
+- Operar sistemas com rastreabilidade e governança
+- Evitar anti-patterns comuns em projetos de IA
 
-### 🔹 Intelligent Agents & Conversational AI
-Projects exploring:
-- Multi-agent architectures  
-- Task orchestration and decision flows  
-- Business-oriented conversational systems  
-
-Technologies include LLMs, LangChain/LangGraph, vector databases and backend APIs.
+O foco é **engenharia aplicada**, não hype.
 
 ---
 
-### 🔹 Data Platforms & Pipelines
-Production-oriented data engineering projects involving:
-- High-volume ingestion pipelines  
-- Lakehouse architectures (Bronze / Silver / Gold)  
-- Analytics-ready datasets with quality and observability  
+## 🎯 Público-Alvo
 
-Stack: Databricks, Apache Spark, Delta Lake, Airflow.
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-- Python, SQL, JavaScript / TypeScript  
-
-**Generative AI & LLMs**
-- OpenAI and LLM APIs  
-- Retrieval-Augmented Generation (RAG)  
-- Prompt engineering and embeddings  
-- Agent-based architectures  
-
-**LLM Orchestration & Evaluation**
-- LangChain, LangGraph  
-- LangSmith (tracing and evaluation)  
-- Prompt versioning and experimentation  
-
-**Vector Databases & Semantic Search**
-- Qdrant, Pinecone  
-- pgvector  
-- Similarity search and hybrid retrieval  
-
-**Data Engineering & Platforms**
-- Databricks, Apache Spark  
-- Delta Lake (Bronze / Silver / Gold)  
-- Apache Airflow  
-
-**Backend & APIs**
-- FastAPI, Node.js  
-- REST APIs and async architectures  
-
-**MLOps & Experimentation**
-- MLflow  
-- Model lifecycle management  
-- Experiment tracking and evaluation  
-
-**Databases**
-- PostgreSQL  
-- Transactional and analytical data modeling  
-
-**Infrastructure & Operations**
-- Docker  
-- CI/CD pipelines  
-- Cloud-native architectures  
-- Environment isolation and secrets management  
+- Engenheiros de Software
+- Engenheiros de Dados
+- Engenheiros / Arquitetos de IA
+- Profissionais atuando com IA Generativa
+- Pessoas que desejam migrar de “experimentos” para **produção**
 
 ---
 
-## 🔍 About This GitHub
+## 🧠 O que você vai aprender
 
-This GitHub hosts:
-- Applied AI and data engineering projects  
-- Architecture prototypes and reference implementations  
-- Production-minded solutions reflecting real-world trade-offs  
-
-Repositories are organized to emphasize **engineering decisions, system design and ownership**, not just isolated experiments.
+- Como tratar IA Generativa como **sistema de software**
+- Fundamentos de LLMs que realmente importam para produção
+- Arquiteturas de RAG bem projetadas
+- Estratégias de chunking, embeddings e recuperação de contexto
+- Orquestração de agentes e fluxos de decisão
+- Governança, segurança, auditoria e observabilidade
+- Custos, performance e trade-offs técnicos
+- Boas práticas e anti-patterns em projetos reais
 
 ---
 
-## 🌐 Links
+## 🧩 Estrutura do Curso
 
-- Website: https://alexsander.app.br  
-- LinkedIn: [https://www.linkedin.com/in/alextelles/](https://www.linkedin.com/in/alexsander-valente/)
+O curso é organizado em **módulos independentes e progressivos**, cada um com material próprio, exemplos, exercícios e checklist de conclusão.
+
+### 📦 Módulo 1 — Setup do Ambiente
+Preparação completa do ambiente de desenvolvimento para LLMs.
+
+- Instalação do Python (Windows, Mac e Linux)
+- Ambientes virtuais
+- Gerenciamento de dependências (UV, pip, Poetry)
+- VS Code para Python
+- Git básico
+- Variáveis de ambiente
+- Jupyter no VS Code
+
+📁 Pasta: `modulo-01-setup/`
+
+---
+
+### 📦 Módulo 2 — Fundamentos de LLMs
+Conceitos essenciais para entender o funcionamento e as limitações de modelos de linguagem.
+
+- O que são LLMs
+- Tokens, contexto e limites
+- Prompt vs arquitetura
+- Modelos base vs modelos ajustados
+- Custos e latência
+
+📁 Pasta: `modulo-02-fundamentos-llm/`
+
+---
+
+### 📦 Módulo 3 — RAG em Produção
+Construção de pipelines robustos de Retrieval-Augmented Generation.
+
+- Arquitetura de RAG
+- Chunking e estratégias de indexação
+- Embeddings e trade-offs
+- Vector databases
+- Controle de contexto e redução de alucinações
+
+📁 Pasta: `modulo-03-rag/`
+
+---
+
+### 📦 Módulo 4 — Agentes e Orquestração
+Uso de agentes para tomada de decisão e automação inteligente.
+
+- O que são agentes de IA
+- Orquestração de fluxos
+- Delegação de tarefas
+- Estados e memória
+- Quando usar (e quando não usar) agentes
+
+📁 Pasta: `modulo-04-agentes/`
+
+---
+
+### 📦 Módulo 5 — Governança, Segurança e Observabilidade
+Tratando IA Generativa como software corporativo.
+
+- Governança de IA
+- Segurança de dados e prompts
+- Logs, auditoria e rastreabilidade
+- Monitoramento e observabilidade
+- Compliance e boas práticas
+
+📁 Pasta: `modulo-05-governanca/`
+
+---
+
+### 📦 Módulo 6 — Projeto Final em Produção
+Aplicação prática de todos os conceitos do curso.
+
+- Assistente técnico interno (N1 / N2)
+- RAG + agentes
+- API em produção
+- Logs, métricas e validação
+- Avaliação arquitetural
+
+📁 Pasta: `modulo-06-projeto-final/`
+
+---
+
+## 🛠️ Stack Tecnológica
+
+- Python 3.11+
+- FastAPI
+- LLMs (OpenAI / Groq / equivalentes)
+- Vector Databases
+- PostgreSQL
+- Git e GitHub
+- VS Code
+
+---
+
+## 📁 Estrutura Geral do Repositório
+
+```text
+/
+├── modulo-01-setup/
+├── modulo-02-fundamentos-llm/
+├── modulo-03-rag/
+├── modulo-04-agentes/
+├── modulo-05-governanca/
+├── modulo-06-projeto-final/
+└── README.md
+
 
