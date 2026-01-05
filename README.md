@@ -2,16 +2,6 @@
 
 ![Profile](https://github.com/valente-telles/alevtelles/blob/main/image.png?raw=true)
 
-
-# Alexsander Telles  
-Senior / Lead Data & AI Engineer  
-Generative AI · Data Platforms · End-to-End Systems
-
-I am a Senior / Lead Engineer with strong experience designing and leading **end-to-end data and Generative AI solutions**, from data architecture and orchestration to production-grade APIs and user-facing systems.
-
-My work focuses on **applied Generative AI in real business and regulated environments**, combining LLMs, Retrieval-Augmented Generation (RAG), intelligent agents and modern data platforms with an emphasis on explainability, governance and long-term maintainability.
-
----
 # 🎓 Curso: IA Generativa em Produção
 
 ## Arquitetura, Governança e Sistemas Reais com LLMs
