@@ -1,6 +1,7 @@
 <!-- HEADER BANNER -->
 
-![Profile]([image.png](https://github.com/valente-telles/alevtelles/blob/main/image.png?raw=true))
+![Profile](https://github.com/valente-telles/alevtelles/blob/main/image.png?raw=true)
+
 
 # Alexsander Telles  
 Senior / Lead Data & AI Engineer  
