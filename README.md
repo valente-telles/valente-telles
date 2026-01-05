@@ -1,30 +1,33 @@
-<!-- HEADER BANNER -->
+# 🎓 Curso Oficial
 
-![Profile](https://github.com/valente-telles/alevtelles/blob/main/image.png?raw=true)
+## LLMs na Prática: Do Zero ao Sistema em Produção  
+### Engenharia de Prompt, RAG, Agentes e Aplicações Empresariais com Python
 
-# 🎓 Curso: IA Generativa em Produção
+Este repositório contém a **estrutura oficial, grade curricular completa, projetos e diretrizes** do curso  
+**LLMs na Prática: Do Zero ao Sistema em Produção**.
 
-## Arquitetura, Governança e Sistemas Reais com LLMs
-
-Curso técnico e prático focado na construção de **sistemas de IA Generativa em produção**, tratando LLMs como **software crítico**, e não como experimentos isolados.
-
-Este curso aborda decisões reais de **arquitetura, governança, segurança, custo e operação**, aplicadas a cenários corporativos.
+O curso é focado em **engenharia aplicada de IA Generativa**, tratando LLMs como **software crítico**, e não como experimentos ou demos isoladas.
 
 ---
 
 ## 📌 Visão Geral
 
-A popularização de LLMs trouxe inúmeras demos e tutoriais rápidos, mas poucos conteúdos ensinam **como projetar, manter e escalar sistemas de IA Generativa em ambientes reais**.
+A adoção de LLMs explodiu nos últimos anos, mas a maioria dos conteúdos disponíveis se limita a:
+- exemplos simples,
+- notebooks isolados,
+- prompts sem contexto de produção.
 
-Este curso foi criado para preencher essa lacuna.
+Este curso foi criado para ensinar **como projetar, construir e operar sistemas reais com LLMs**, considerando:
 
-Aqui, você aprenderá a:
-- Projetar arquiteturas sólidas de IA Generativa
-- Construir pipelines com RAG e agentes
-- Operar sistemas com rastreabilidade e governança
-- Evitar anti-patterns comuns em projetos de IA
+- Arquitetura
+- Governança
+- Segurança
+- Observabilidade
+- Custos
+- Escalabilidade
+- Casos de uso empresariais
 
-O foco é **engenharia aplicada**, não hype.
+Aqui, o foco é **engenharia**, não hype.
 
 ---
 
@@ -33,130 +36,294 @@ O foco é **engenharia aplicada**, não hype.
 - Engenheiros de Software
 - Engenheiros de Dados
 - Engenheiros / Arquitetos de IA
-- Profissionais atuando com IA Generativa
-- Pessoas que desejam migrar de “experimentos” para **produção**
+- Desenvolvedores que desejam trabalhar com IA Generativa em produção
+- Profissionais que querem evoluir de *“POCs e notebooks”* para *sistemas enterprise*
 
 ---
 
-## 🧠 O que você vai aprender
+## 🧠 Objetivos de Aprendizagem
 
-- Como tratar IA Generativa como **sistema de software**
-- Fundamentos de LLMs que realmente importam para produção
-- Arquiteturas de RAG bem projetadas
-- Estratégias de chunking, embeddings e recuperação de contexto
-- Orquestração de agentes e fluxos de decisão
-- Governança, segurança, auditoria e observabilidade
-- Custos, performance e trade-offs técnicos
-- Boas práticas e anti-patterns em projetos reais
+Ao final do curso, o aluno será capaz de:
+
+- Configurar ambientes Python profissionais
+- Consumir APIs de LLMs (OpenAI, Groq, Gemini)
+- Dominar Engenharia de Prompt de forma estruturada
+- Construir sistemas RAG do básico ao avançado
+- Desenvolver agentes inteligentes single e multi-agent
+- Criar aplicações web com LLMs
+- Integrar LLMs com bancos SQL e Vector Databases
+- Projetar sistemas com governança e observabilidade
+- Entregar um sistema de IA Generativa pronto para produção
 
 ---
 
-## 🧩 Estrutura do Curso
+## 📊 Informações Gerais
 
-O curso é organizado em **módulos independentes e progressivos**, cada um com material próprio, exemplos, exercícios e checklist de conclusão.
+| Item | Detalhe |
+|----|----|
+| Carga Horária Total | **123 horas** |
+| Módulos | **15 módulos + Bônus** |
+| Projetos Práticos | **17 projetos** |
+| Casos de Uso | **8 setores empresariais** |
+| Formato | Online, ritmo próprio |
+| Nível | Do iniciante ao avançado |
+| Linguagem | Python |
+| Idioma | Português (PT-BR) |
 
-### 📦 Módulo 1 — Setup do Ambiente
-Preparação completa do ambiente de desenvolvimento para LLMs.
+---
 
-- Instalação do Python (Windows, Mac e Linux)
+# 🚀 Grade Curricular Completa
+
+## PARTE 1 — FUNDAMENTOS (24h)
+
+### 📦 Módulo 1 — Setup do Ambiente (6h)
+Configuração completa do ambiente de desenvolvimento para LLMs.
+
+- Python 3.11+ (Windows, Mac e Linux)
 - Ambientes virtuais
-- Gerenciamento de dependências (UV, pip, Poetry)
-- VS Code para Python
-- Git básico
+- Gerenciadores de pacotes (pip, UV, Poetry)
+- VS Code
+- Git
 - Variáveis de ambiente
-- Jupyter no VS Code
+- Jupyter
 
-📁 Pasta: `modulo-01-setup/`
+**Entregáveis**
+- Ambiente configurado
+- Primeiro notebook executado
 
 ---
 
-### 📦 Módulo 2 — Fundamentos de LLMs
-Conceitos essenciais para entender o funcionamento e as limitações de modelos de linguagem.
+### 📦 Módulo 2 — Fundamentos de LLMs (4h)
+Compreensão da tecnologia antes do uso.
 
 - O que são LLMs
-- Tokens, contexto e limites
-- Prompt vs arquitetura
-- Modelos base vs modelos ajustados
-- Custos e latência
+- Transformers (visão geral)
+- Tokenização
+- Embeddings
+- Principais modelos
+- Custos e rate limits
 
-📁 Pasta: `modulo-02-fundamentos-llm/`
-
----
-
-### 📦 Módulo 3 — RAG em Produção
-Construção de pipelines robustos de Retrieval-Augmented Generation.
-
-- Arquitetura de RAG
-- Chunking e estratégias de indexação
-- Embeddings e trade-offs
-- Vector databases
-- Controle de contexto e redução de alucinações
-
-📁 Pasta: `modulo-03-rag/`
+**Entregáveis**
+- Quiz conceitual
+- Calculadora de custos
 
 ---
 
-### 📦 Módulo 4 — Agentes e Orquestração
-Uso de agentes para tomada de decisão e automação inteligente.
+### 📦 Módulo 3 — Engenharia de Prompt (8h)
+Comunicação eficaz e estruturada com LLMs.
 
-- O que são agentes de IA
-- Orquestração de fluxos
-- Delegação de tarefas
-- Estados e memória
-- Quando usar (e quando não usar) agentes
+- Roles
+- Parâmetros
+- Few-shot
+- Chain of Thought
+- Output estruturado
+- Análise e transformação de texto
 
-📁 Pasta: `modulo-04-agentes/`
-
----
-
-### 📦 Módulo 5 — Governança, Segurança e Observabilidade
-Tratando IA Generativa como software corporativo.
-
-- Governança de IA
-- Segurança de dados e prompts
-- Logs, auditoria e rastreabilidade
-- Monitoramento e observabilidade
-- Compliance e boas práticas
-
-📁 Pasta: `modulo-05-governanca/`
+**Projeto**
+- Chatbot com personalidade customizada
 
 ---
 
-### 📦 Módulo 6 — Projeto Final em Produção
-Aplicação prática de todos os conceitos do curso.
+### 📦 Módulo 4 — APIs de LLMs (6h)
+Integração direta com provedores de modelos.
 
-- Assistente técnico interno (N1 / N2)
-- RAG + agentes
-- API em produção
-- Logs, métricas e validação
-- Avaliação arquitetural
+- OpenAI
+- Groq
+- Gemini
+- Estratégias multi-modelo
+- Fallback
 
-📁 Pasta: `modulo-06-projeto-final/`
+**Projeto**
+- Script multi-provedor
 
 ---
 
-## 🛠️ Stack Tecnológica
+## PARTE 2 — FRAMEWORKS E FERRAMENTAS (20h)
 
-- Python 3.11+
+### 📦 Módulo 5 — LangChain Fundamentos (10h)
+Construção de pipelines e agentes.
+
+- PromptTemplate
+- Chains
+- LCEL
+- Tools
+- Agents
+- ReAct Pattern
+
+**Projetos**
+- Router Agent
+- ReAct Agent
+
+---
+
+### 📦 Módulo 6 — Embeddings e Vector Databases (6h)
+Base técnica do RAG.
+
+- Embeddings
+- Similaridade
+- Chunking
+- Pinecone
+- ChromaDB
+
+**Projeto**
+- Busca semântica
+
+---
+
+### 📦 Módulo 7 — Aplicações Web com Streamlit (4h)
+Transformando código em aplicações.
+
+**Projeto**
+- Gerador de relatórios com LLM
+
+---
+
+## PARTE 3 — RAG (32h)
+
+### 📦 Módulo 8 — RAG Fundamentos (6h)
+Arquitetura básica de Retrieval-Augmented Generation.
+
+**Projeto**
+- Busca Semântica Jurídica
+
+---
+
+### 📦 Módulo 9 — RAG Avançado (16h)
+Arquiteturas especializadas:
+
+- Corrective RAG
+- HyDE RAG
+- Graph RAG
+- Multimodal RAG
+
+**Entregáveis**
+- 4 sistemas RAG diferentes
+
+---
+
+### 📦 Módulo 10 — RAG em Produção (10h)
+Avaliação, métricas e qualidade.
+
+- Self-RAG
+- Adaptive RAG
+- Hybrid Search
+- Reranking
+- Avaliação
+
+---
+
+## PARTE 4 — AGENTES INTELIGENTES (24h)
+
+### 📦 Módulo 11 — LangGraph (8h)
+Orquestração de fluxos complexos.
+
+---
+
+### 📦 Módulo 12 — Agentes Especializados (10h)
+Casos reais:
+
+- RH
+- Code Assistant
+- Chat with SQL
+
+---
+
+### 📦 Módulo 13 — Sistemas Multi-Agent (6h)
+Comunicação e coordenação entre agentes.
+
+---
+
+## PARTE 5 — PRODUÇÃO (20h)
+
+### 📦 Módulo 14 — Projeto Final: RAG Enterprise (12h)
+Sistema completo com:
+
 - FastAPI
-- LLMs (OpenAI / Groq / equivalentes)
-- Vector Databases
-- PostgreSQL
-- Git e GitHub
-- VS Code
+- Agentes
+- Observabilidade
+- Segurança
+- Deploy
 
 ---
 
-## 📁 Estrutura Geral do Repositório
+### 📦 Módulo 15 — Casos de Uso Setoriais (8h)
+Aplicações em:
 
-```text
-/
-├── modulo-01-setup/
-├── modulo-02-fundamentos-llm/
-├── modulo-03-rag/
-├── modulo-04-agentes/
-├── modulo-05-governanca/
-├── modulo-06-projeto-final/
-└── README.md
+- Finanças
+- Saúde
+- RH
+- Marketing
+- Varejo
+- Turismo
+- Educação
+- Atendimento
 
+---
 
+## 🎁 BÔNUS — IA Generativa em Produção (3h)
+
+Módulo focado em **arquitetura e governança**, com 12 episódios sobre:
+
+- Guardrails
+- Observabilidade
+- Custos
+- Anti-patterns
+- Decisões arquiteturais
+
+---
+
+## 🏆 Projetos do Curso
+
+- 17 projetos práticos
+- 1 projeto final enterprise
+- 1 projeto bônus corporativo
+
+---
+
+## 🎓 Certificação
+
+| Nível | Requisito |
+|----|----|
+| Básico | Módulos 1–7 |
+| Intermediário | Módulos 1–10 |
+| Avançado | Módulos 1–13 |
+| Expert | Curso completo + Projeto Final |
+| Expert+ | Expert + Bônus |
+
+---
+
+## 📋 Pré-requisitos
+
+**Obrigatórios**
+- Lógica de programação básica
+- Computador com 8GB+ RAM
+
+**Não necessários**
+- Machine Learning
+- Matemática avançada
+- Experiência prévia com IA
+
+---
+
+## 👤 Autor
+
+**Alexsander Valente**  
+Senior / Lead Data & AI Engineer  
+
+Especialista em:
+- Arquitetura de Dados
+- IA Generativa em Produção
+- Sistemas Corporativos
+
+🔗 Website: https://alexsander.app.br
+
+---
+
+## 📄 Licença
+
+Este material é destinado a fins educacionais.  
+A redistribuição deve respeitar os termos definidos pelo autor.
+
+---
+
+*Última atualização: Janeiro de 2026*
